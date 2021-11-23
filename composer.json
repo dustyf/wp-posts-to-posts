@@ -6,13 +6,17 @@
     "minimum-stability": "dev",
     "require": {
         "composer/installers": "~2.0",
-		"dustyf/lib-posts-to-posts": "master",
+		"dustyf/lib-posts-to-posts": "dev-master",
         "mustache/mustache": "~2.13"
     },
     "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/dustyf/wp-lib-posts-to-posts.git"
+        },
+		{
+            "type": "vcs",
+            "url": "https://github.com/dustyf/wp-scb-framework.git"
         }
     ]
 }

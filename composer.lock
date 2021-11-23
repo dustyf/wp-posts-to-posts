@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e91e4f215c2f5d220cc97765cc96a37b",
+    "content-hash": "98cc9f743f1b162601cbd7b7c7d3171a",
     "packages": [
         {
             "name": "composer/installers",
@@ -156,16 +156,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dustyf/wp-lib-posts-to-posts.git",
-                "reference": "5d249cc67c07b20222f1de68007dc7a9c5a5b693"
+                "reference": "59ba8670fe9fa5f02e1d821c4b350fa170d6b357"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dustyf/wp-lib-posts-to-posts/zipball/5d249cc67c07b20222f1de68007dc7a9c5a5b693",
-                "reference": "5d249cc67c07b20222f1de68007dc7a9c5a5b693",
+                "url": "https://api.github.com/repos/dustyf/wp-lib-posts-to-posts/zipball/59ba8670fe9fa5f02e1d821c4b350fa170d6b357",
+                "reference": "59ba8670fe9fa5f02e1d821c4b350fa170d6b357",
                 "shasum": ""
             },
             "require": {
-                "scribu/scb-framework": "dev-master"
+                "dustyf/scb-framework": "dev-master"
             },
             "default-branch": true,
             "type": "library",
@@ -182,7 +182,53 @@
             "support": {
                 "source": "https://github.com/dustyf/wp-lib-posts-to-posts/tree/master"
             },
-            "time": "2021-11-23T17:15:03+00:00"
+            "time": "2021-11-23T18:46:06+00:00"
+        },
+        {
+            "name": "dustyf/scb-framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dustyf/wp-scb-framework.git",
+                "reference": "9594a838c3bb66dc4621e82e27eb724d20215211"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dustyf/wp-scb-framework/zipball/9594a838c3bb66dc4621e82e27eb724d20215211",
+                "reference": "9594a838c3bb66dc4621e82e27eb724d20215211",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "."
+                ],
+                "files": [
+                    "load-composer.php",
+                    "Util.php"
+                ]
+            },
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Cristi Burcă",
+                    "homepage": "http://scribu.net/"
+                }
+            ],
+            "description": "A set of useful classes for faster plugin development",
+            "homepage": "https://github.com/dustyf/wp-scb-framework",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/dustyf/wp-scb-framework/issues",
+                "source": "https://github.com/dustyf/wp-scb-framework",
+                "wiki": "https://github.com/dustyf/wp-scb-framework/wiki"
+            },
+            "time": "2021-11-23T18:38:32+00:00"
         },
         {
             "name": "mustache/mustache",
@@ -233,59 +279,14 @@
                 "source": "https://github.com/bobthecow/mustache.php/tree/master"
             },
             "time": "2019-11-23T21:40:31+00:00"
-        },
-        {
-            "name": "scribu/scb-framework",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/scribu/wp-scb-framework.git",
-                "reference": "d35d5126c6d323711dd14b9d97aaa927eaaba123"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/scribu/wp-scb-framework/zipball/d35d5126c6d323711dd14b9d97aaa927eaaba123",
-                "reference": "d35d5126c6d323711dd14b9d97aaa927eaaba123",
-                "shasum": ""
-            },
-            "default-branch": true,
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "."
-                ],
-                "files": [
-                    "load-composer.php",
-                    "Util.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Cristi Burcă",
-                    "homepage": "http://scribu.net/"
-                }
-            ],
-            "description": "A set of useful classes for faster plugin development",
-            "homepage": "https://github.com/scribu/wp-scb-framework",
-            "keywords": [
-                "wordpress"
-            ],
-            "support": {
-                "issues": "https://github.com/scribu/wp-scb-framework/issues",
-                "source": "https://github.com/scribu/wp-scb-framework",
-                "wiki": "https://github.com/scribu/wp-scb-framework/wiki"
-            },
-            "time": "2020-03-15T20:51:58+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "dustyf/lib-posts-to-posts": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
